@@ -37,7 +37,7 @@ typeit = true
 [params.search]
 enable = true
 # type of search engine ["lunr", "algolia"]
-type = "lunr"
+type = "algolia"
 # max index length of the chunked content
 contentLength = 4000
 # placeholder of the search bar
@@ -50,10 +50,10 @@ snippetLength = 30
 highlightTag = "em"
 #  whether to use the absolute URL based on the baseURL in search index
 absoluteURL = false
-#[params.search.algolia]
-#index = ""
-#appID = ""
-#searchKey = ""
+[params.search.algolia]
+index = "tuzov.su"
+appID = "SOFDUCPCY5"
+searchKey = "90d42cf069e0b34ee0ae8e496388e969"
 
 [params.page]
 #lightgallery = true
