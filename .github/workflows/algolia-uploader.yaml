@@ -1,0 +1,17 @@
+name: Upload index to Algolia
+on: [ push ]
+jobs:
+  upload_algolia_index:
+    runs-on: ubuntu-latest
+    name: Upload Algolia Index
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - uses: wangchucheng/algolia-uploader@master
+        with:
+          app_id: SOFDUCPCY5
+          admin_key: ${{ secrets.ALGOLIA_ADMIN_KEY }}
+          index_name: tuzov.su
+          # The index file path relative to repo root.
+          index_file_path: public/index.json
