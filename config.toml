@@ -70,9 +70,6 @@ index = "tuzov.su"
 appID = "SOFDUCPCY5"
 searchKey = "90d42cf069e0b34ee0ae8e496388e969"
 
-[params.page]
-#lightgallery = true
-
 [params.page.toc]
 enable = true
 
