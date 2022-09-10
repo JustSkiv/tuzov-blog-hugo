@@ -128,6 +128,14 @@ post = ""
 name = "Categories"
 url = "/categories/"
 title = ""
+[[menu.main]]
+weight = 4
+identifier = "about"
+pre = ""
+post = ""
+name = "About"
+url = "/about/"
+title = ""
 
 # Markup related configuration in Hugo
 [markup]
@@ -168,6 +176,14 @@ pre = ""
 post = ""
 url = "/categories/"
 title = ""
+[[languages.ru.menu.main]]
+weight = 3
+identifier = "about"
+name = "Обо мне"
+pre = ""
+post = ""
+url = "/about/"
+title = ""
 
 
 #[languages.en]
@@ -199,5 +215,13 @@ title = ""
 #post = ""
 #name = "Categories"
 #url = "/categories/"
+#title = ""
+#[[languages.en.menu.main]]
+#weight = 5
+#identifier = "about"
+#pre = ""
+#post = ""
+#name = "About"
+#url = "/about/"
 #title = ""
 
