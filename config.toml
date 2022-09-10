@@ -28,6 +28,21 @@ title = "Nikolay Tuzov blog"
 # website description for RSS, SEO, Open Graph and Twitter Cards
 description = "Блог о разработке и технологиях"
 
+[params.social]
+Telegram = "ntuzov"
+Youtubecustom = "НиколайТузов"
+
+[params.page]
+[params.page.comment]
+enable = true
+[params.page.comment.remark42]
+enable = true
+host="https://remark42.tuzov.su"
+siteId="tuzov-blog"
+
+[params.page.share]
+enable = false
+
 [params.home]
 [params.home.profile]
 subtitle = "Блог о разработке и технологиях"
