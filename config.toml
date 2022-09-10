@@ -1,7 +1,7 @@
 baseURL = "https://tuzov.su/"
 
 # Change the default theme to be use when building the site with Hugo
-theme = "LoveIt"
+theme = "justskiv-loveit"
 
 # website title
 title = "Николай Тузов - блог"
