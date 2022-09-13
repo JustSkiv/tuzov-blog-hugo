@@ -5,6 +5,7 @@ categories: [Development, Golang]
 excludeRelatedPost: true
 tags:
 - Debug
+- Golang
 ---
 
 Недавно довелось столкнуться с необходимостью отладки (запуска дебагера) программы, которая работает
