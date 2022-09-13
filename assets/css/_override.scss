@@ -2,8 +2,18 @@
   display: none !important;
 }
 
+.home-profile .links a {
+  margin-right: 5px !important;
+}
+
 .post-category a i {
   margin-right: 2px;
+}
+
+// code bloc
+.highlight {
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
 }
 
 // Post meta
@@ -11,6 +21,8 @@
   background-color: rgba(1, 1, 1, .1);
   padding: 8px;
   border-radius: 5px;
+  margin-top: 10px !important;
+  margin-bottom: 20px !important;
 }
 .page.single .post-meta {
   margin-top: 20px;
@@ -37,8 +49,8 @@ $global-font-secondary-color-dark: #a2a2a2;
 }
 
 // links
-$single-link-color: #777777;
-$single-link-color-dark: #777777;
+$single-link-color: #4e678a;
+$single-link-color-dark: #6c89b7;
 
 // Color of the hover single link
 $single-link-hover-color: #282828;
