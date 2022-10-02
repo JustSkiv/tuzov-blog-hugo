@@ -1,3 +1,20 @@
+img {
+  [theme=dark] & {
+    filter: brightness(0.5);
+    transition: filter .6s ease-out;
+  }
+}
+
+img:hover {
+  [theme=dark] & {
+    filter: none;
+  }
+}
+
+[theme="dark"] .single .content b, [theme="dark"] .single .content strong {
+  color: #c4c4c4 !important;
+}
+
 .post-author {
   display: none !important;
 }
