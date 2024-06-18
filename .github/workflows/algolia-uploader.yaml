@@ -10,7 +10,7 @@ jobs:
           fetch-depth: 0
       - uses: wangchucheng/algolia-uploader@master
         with:
-          app_id: SOFDUCPCY5
+          app_id: 7WGBJL8PGQ
           admin_key: ${{ secrets.ALGOLIA_ADMIN_KEY }}
           index_name: tuzov.dev
           # The index file path relative to repo root.
