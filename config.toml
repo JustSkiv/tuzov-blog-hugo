@@ -1,4 +1,4 @@
-baseURL = "https://tuzov.su/"
+baseURL = "https://tuzov.dev/"
 
 # Change the default theme to be use when building the site with Hugo
 theme = "justskiv-loveit"
@@ -37,7 +37,7 @@ Youtubecustom = "НиколайТузов"
 enable = true
 [params.page.comment.remark42]
 enable = true
-host="https://remark42.tuzov.su"
+host="https://remark42.tuzov.dev"
 siteId="tuzov-blog"
 
 [params.page.share]
@@ -66,7 +66,7 @@ highlightTag = "em"
 #  whether to use the absolute URL based on the baseURL in search index
 absoluteURL = false
 [params.search.algolia]
-index = "tuzov.su"
+index = "tuzov.dev"
 appID = "SOFDUCPCY5"
 searchKey = "90d42cf069e0b34ee0ae8e496388e969"
 

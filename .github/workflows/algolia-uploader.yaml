@@ -12,6 +12,6 @@ jobs:
         with:
           app_id: SOFDUCPCY5
           admin_key: ${{ secrets.ALGOLIA_ADMIN_KEY }}
-          index_name: tuzov.su
+          index_name: tuzov.dev
           # The index file path relative to repo root.
           index_file_path: public/index.json
