@@ -67,8 +67,8 @@ highlightTag = "em"
 absoluteURL = false
 [params.search.algolia]
 index = "tuzov.dev"
-appID = "SOFDUCPCY5"
-searchKey = "90d42cf069e0b34ee0ae8e496388e969"
+appID = "7WGBJL8PGQ"
+searchKey = "95494c20f4c67cb7e9381abcf66bb6e5"
 
 [params.page.toc]
 enable = true
