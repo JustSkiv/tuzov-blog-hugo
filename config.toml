@@ -30,7 +30,9 @@ description = "Блог о разработке и технологиях"
 
 [params.social]
 Telegram = "ntuzov"
-Youtubecustom = "НиколайТузов"
+youtubeuser = "@nikolay_tuzov"
+rss = "/index.xml"
+habr = "JustSkiv"
 
 [params.page]
 [params.page.comment]
